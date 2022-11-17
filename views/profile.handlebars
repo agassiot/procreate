@@ -1,0 +1,48 @@
+<div class="row">
+  <div class="col-auto">
+    <h5> Aloha, {{name}}... </h5>
+  </div>
+</div>
+
+
+ <div class="row">
+  <div class="col-2 ml-0 pl-0">
+    <h6>Add members:</h6>
+
+    <form id="addform" class="form newrow">
+      <div class="form-group">
+        <label for="name-x">Name for Parent 1:</label>
+        <input class="form-input" type="text" id="name-x" />
+
+        <label for="name-y">Name for Parent 2:</label>
+        <input class="form-input" type="text" id="name-y" />
+
+       <label for="name">Name of Child:</label>
+        <input class="form-input" type="text" id="name" />
+      </div> 
+      
+      <div class="form-group">
+        <button type="submit" class="btn btn-md btn-info">Add!</button>
+      </div>
+    </form>
+    <button class="btn btn-md btn-info" id="generate">Generate Tree!</button> 
+  </div>
+
+  {{#if trees.length}}
+  <div id="tree-frame" class="col-9">
+
+ {{#each trees as |tree| }}
+
+
+    <li name="member" data-fam="{{tree.famId}}"data-namex="{{tree.nameX}}" data-namey="{{tree.nameY}}">{{ tree.name }}<button class="btn btn-sm btn-danger del-butt" data-id="{{tree.id}}" id="del-butt">Delete</button></li> 
+    
+ 
+{{/each}}
+</div>
+ {{/if}}
+
+
+</div>
+
+
+<script src="./js/profile.js"></script>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>proCreate</title>
+  <link rel="stylesheet" href="/css/jass.css">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body >
+  <main class="flex-column justify-space-around">
+    <header class="bg-info">
+      <h1 class="display-flex w-100 justify-left align-center p-2 mt-4">
+        <a href="/">pro<span class="text-light">Create</a></span>
+      </h1>
+      {{#if logged_in}}
+      <h5> Aloha, {{name}}... </h5>
+      {{/if}}
+      <div class="display-flex w-100 justify-right p-2">
+        <nav class="display-flex align-center p-2">
+          {{#if logged_in}}
+          <button class="invis" id="logout" class="ml-4"><a class="mr-2">Logout</a></button>
+          {{else}}
+          <a href="/login">Login</a>
+          {{/if}}
+        </nav>
+      </div>
+    </header>
+    <main class="container container-fluid mt-5 justify-center" >
+      {{{ body }}}
+    </main>
+      
+  </main>
+
+  {{#if logged_in}}
+  <script src="/js/logout.js"></script>
+  {{/if}}
+</body>
+
+</html>

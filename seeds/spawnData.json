@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Sirius Black",
+    "nameX": "Phineas Black",
+    "nameY": "Ursula Flint"
+  },
+  {
+    "name": "Arcturus Black",
+    "nameX": "Ursula Flint",
+    "nameY": "Phineas Black"
+  },
+  {
+    "name": "Cygnus Black",
+    "nameX": "Ursula Flint",
+    "nameY": "Phineas Black"
+  },
+  {
+    "name": "Arcturus Black II",
+    "nameX": "Sirius Black",
+    "nameY": "Hesper Gamp"
+  },
+  {
+    "name": "Pollux Black",
+    "nameX": "Cygnus Black",
+    "nameY": "Irma Crabble"
+  },
+  {
+    "name": "Septimus Weasley",
+    "nameX": "Arcturus Black",
+    "nameY": "Lysandra Yaxley"
+  },
+  { 
+    "name": "Arthur Weasley",
+    "nameX": "Septimus Weasley",
+    "nameY": "Cedrella Black"
+  },
+  {
+    "name": "Bill Weasley",
+    "nameX": "Arthur Weasley",
+    "nameY": "Molly Prewett"
+  },  
+  {
+    "name": "Charlie Weasley",
+    "nameX": "Arthur Weasley",
+    "nameY": "Molly Prewett"
+  },
+  {
+    "name": "George Weasley",
+    "nameX": "Arthur Weasley",
+    "nameY": "Molly Prewett"
+  },
+  { 
+    "name": "Ginny Weasley",
+    "nameX": "Arthur Weasley",
+    "nameY": "Molly Prewett"
+  },
+  {
+    "name": "Ronald Weasley",
+    "nameX": "Arthur Weasley",
+    "nameY": "Molly Prewett"
+  }
+]
